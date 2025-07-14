@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+padding: 0;
+font-family: cursive;
+}
+
+body{
+background: linear-gradient(#ff6a14b0,#222);
+height: 100vh;
+width: 100%;
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+body::after{
+
+content: '';
+width: 100%;
+height: 100%;
+background: linear-gradient(#ff000085,#00000094);
+position: absolute;
+clip-path: circle(40% at right 70%);
+z-index: -1;
+}
+.zeka{
+
+width: 80%;
+height: 80%;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+overflow: hidden;
+
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+margin: auto;
+
+padding: 20px 0;
+}
+nav .logo{
+color: #00000057;
+text-decoration: none;
+font-size: 32px;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: 700;
+background: linear-gradient(to top,#14141428,transparent);
+border-radius: 20px;
+}
+
+nav ul li{
+
+display: inline-block;
+margin: 0 6px;
+
+
+
+}
+nav ul li a{
+
+color: #110f0fea;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+padding: 4px 7px;
+border-radius: 20px;
+}
+nav ul li a:hover{
+background: linear-gradient(to top,#746c6cad,transparent);
+color: #000000;
+
+z-index:auto;
+
+
+
+}
+
+
+.pepo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+width: 80%;
+margin: auto;
+}
+
+.pepo .eslam{
+color: #111111a6;
+width: 40%;
+
+
+
+
+}
+
+.pepo .eslam h2{
+font-size: 40px;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 2px;
+
+
+}
+
+.pepo .eslam p{
+font-size: 18px;
+line-height: 25px;
+margin: 10px 0;
+letter-spacing: 1px;
+}
+.pepo .image{
+width: 18%;
+
+
+
+
+
+
+}
+
+
+.pepo .image img{
+width: 250px;
+
+
+
+}
+
+
+
+
+@media (min-width:950px) and (max-width:1150px){
+
+.pepo .image img{
+
+    width: 330px;
+}
+
+
+}
+@media(max-width:950px){
+.pepo{
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+.pepo .image, .pepo .zeka{
+
+
+
+    width: 80%;}
+
+
+}
+.eslam ul li{
+display: inline-block;
+margin: 0 6px;
+
+
+
+
+    
+}
+.eslam ul li a{
+display: inline-block;
+margin: 0 6px;
+
+
+
+}
+
+.eslam ul li a{
+
+color: #ffffffd3;
+text-decoration: none;
+font-size: 19px;
+font-weight: 500px;
+padding: 9px 10px;
+border-radius: 20px;
+margin: auto;
+}
+.eslam ul li a:hover, .zx{
+background: linear-gradient(to top,#3a3838ad,transparent);
+color: #000000;
+z-index:auto;
+
+
+}
